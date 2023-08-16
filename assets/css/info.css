@@ -3032,7 +3032,7 @@ button:disabled,
       
       @media screen and (max-width: 480px) {
         .inner {
-          max-width: 85%;
+          max-width: 90%;
         }
         #header .inner{
           max-width: 90%;
