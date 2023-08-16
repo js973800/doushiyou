@@ -1,0 +1,17 @@
+#header .inner{
+    max-width: 93.751em;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (max-width:480px){
+    #header .inner{
+        max-width: 90%;
+    }
+    #header a.navPanelToggle .fa {
+        font-size: 1.1em;
+    }
+    .notch{
+        opacity: 0;
+    }
+}

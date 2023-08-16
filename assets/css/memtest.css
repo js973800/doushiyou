@@ -1,0 +1,107 @@
+
+.slide-btn {
+   display: none;
+    
+  }
+  @media (max-width: 480px) {
+    .mem {
+        overflow: hidden;
+        position: relative;
+        display: block;
+      }
+      .tmem{
+        font-size: 12px;
+      }
+      .tmem h3{
+        font-size: 14px;
+      }
+      
+      .group {
+        max-width: 100%;
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        position: relative;
+        overflow: initial;
+      }
+      
+      .item {
+        flex: 0 0 100%;
+        height: 50vh;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin: 0;
+      }
+      
+      .item2 {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 10px;
+        width: 100%;
+        transform: translateY(100%);
+        transition: transform 0.3s ease-in-out;
+        margin: 0;
+      }
+      
+      .item:hover .item2 {
+        transform: translateY(0);
+        opacity: 1;
+      }
+      .item2:hover{
+        transform: translateY(100%);
+      }
+      
+      
+      
+     
+      
+      .slide-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: black;
+        border: none;
+       
+        cursor: pointer;
+        z-index: 1;
+        width: 10%;
+        display: block;
+      }
+      
+      .prev-btn {
+        left: 10px;
+      }
+      
+      .next-btn {
+        right: 10px;
+      }
+    .dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+        
+      }
+      
+      .dot {
+        width: 10px;
+        height: 10px;
+        background-color: gray;
+        border-radius: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+      }
+      .active {
+        background-color: #f5f5ff;
+      }
+     
+  }
+  
+  
+  
+  
+  
+  
+  

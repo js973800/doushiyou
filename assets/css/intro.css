@@ -1,0 +1,19 @@
+.intro {
+    font-family: 'Zen Maru Gothic';
+    position: absolute;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #202020;
+    z-index: 0;
+  }
+  .intro__title {
+    color: white;
+    max-width: 45%;
+    text-align: center;
+    mix-blend-mode: difference;
+    z-index: 2;
+    transform: translateY(40px);
+  }
