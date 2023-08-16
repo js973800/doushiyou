@@ -3347,4 +3347,8 @@ button:disabled,
   #header a.navPanelToggle .fa {
     font-size: 1.2em;
 }
+.testimony{
+	font-size: 13px;
+	text-align: left;
+}
 }
