@@ -1,7 +1,9 @@
 *:focus {
     outline: none;
   }
- 
+.snfontsize{
+    font-size:11.7333px;
+}
 
 #project-wrapper {
     
