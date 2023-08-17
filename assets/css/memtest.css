@@ -62,13 +62,16 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background: black;
+        
         border: none;
-       
+        
         cursor: pointer;
         z-index: 1;
         width: 10%;
         display: block;
+        border-radius:5px;
+        background: #000000d1;
+        height: 15%;
       }
       
       .prev-btn {
