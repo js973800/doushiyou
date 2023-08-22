@@ -102,6 +102,7 @@
     #project-wrapper{
         display: none;
       }
+ }
   @media (max-width:480px){
     #project-wrapper{
         display: none;
