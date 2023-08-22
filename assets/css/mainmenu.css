@@ -110,7 +110,7 @@
         position: relative;
         top: 15px;
       }
-      .navPanelToggle .tog2{
+      .navPanelToggle.tog2{
         position: relative;
         top: 0;
       }
