@@ -98,6 +98,10 @@
     padding-bottom: 4px;
     border-radius: 0 0 4px 4px;
   }
+ @media (max-width:980px){
+    #project-wrapper{
+        display: none;
+      }
   @media (max-width:480px){
     #project-wrapper{
         display: none;
