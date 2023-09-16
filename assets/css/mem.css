@@ -25,10 +25,10 @@
   .item {
     position: relative;
     width: 15vw;
-    height: 75vh;
+    height: 65vh;
     background-position: center;
     
-    background-size: 75vh;
+    background-size: 65vh;
     margin: 1vw;
     border-radius: 3vw;
     display: inline-block;
@@ -56,10 +56,10 @@
   .item3 {
     position: relative;
     width: 25vw;
-    height: 75vh;
+    height: 65vh;
     background-position: center;
     
-    background-size: 75vh;
+    background-size: 65vh;
     margin: 1vw;
     border-radius: 3vw;
     display: inline-block;
