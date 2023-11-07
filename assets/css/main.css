@@ -1,4 +1,7 @@
-
+@font-face {
+    src: url("ZenMaruGothic-Regular.ttf");
+    font-family: 'Zen Maru Gothic';
+}
 a{
 	font-family: 'Zen Maru Gothic';
 }
