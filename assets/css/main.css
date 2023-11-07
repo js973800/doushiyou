@@ -3305,5 +3305,7 @@ a{
 			flex-direction: column;
 			text-align: center;
 		}
-
+		.image img {
+   		 	border-radius: 10px;
+		}
 	} 
